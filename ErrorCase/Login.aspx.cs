@@ -13,7 +13,7 @@ namespace ErrorCase
         protected void Page_Load(object sender, EventArgs e)
         {
             Debug.WriteLine($"IsPostBack = {IsPostBack}");
-        }
+        } 
 
         protected void btn_Click(object sender, EventArgs e)
         {
